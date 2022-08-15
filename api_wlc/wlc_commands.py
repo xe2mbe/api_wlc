@@ -17,8 +17,8 @@ print(sendCommand)
 
 with ConnectHandler(ip = '192.168.252.2',
                         port = 22,
-                        username = 'ebueno',
-                        password = 'Tti0tGAXF*.',
+                        username = 'user',
+                        password = 'password_wlc',
                         device_type = 'cisco_wlc_ssh'
                     ) as ch: 
 
